@@ -224,6 +224,15 @@ footer .social-icons p {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: #527158;
+}
+
+footer .social-icons p i {
+  font-size: 1.3125 em;
+
 }
 
 footer .copyright {
@@ -347,6 +356,9 @@ input[type=button] {
   width: 47%;
 }
 
+.reviews figure img {
+  border: 3px solid white;
+}
 /* =====================
    About Page
    ====================*/
@@ -636,6 +648,11 @@ input[type=button] {
 
   footer p {
       line-height: 1.285;
+  }
+
+  footer .social-icons {
+    width: 12em;
+    justify-content: space-between;
   }
 
   footer .copyright {
